@@ -1,0 +1,23 @@
+baseURL = "https://skydaydayblue.com/"
+languageCode = "en-us"
+title = "Event Stream"
+theme = "hugo-theme-bleak"
+
+[params]
+  # Warning Keys are case sensitives
+  Subtitle = "Life and things!"
+  description = "Everything is awesome !"
+#   cover = "/images/cover.jpg"
+
+  # Google analytics
+#   googleAnalyticsUserID = "UA-xxxxxxxx-x"
+#   domainVerification = "xxxxxxxxxxxxxxxxxxxxx"
+#   disqus = "xxxxxxxxx"
+
+  [params.author]
+    firstName = "Yimin"
+    lastName = "Wu"
+    gender = "male"
+    userName = "yimin"
+    # image = "https://raw.githubusercontent.com/skydaydayblue/amazing-x/master/static/images/bluesky.jpg"
+    website = "https://yimin.io/"
