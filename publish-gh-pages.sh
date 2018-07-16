@@ -17,6 +17,9 @@ git worktree remove gh-pages
 git worktree prune
 rm -rf .git/worktrees/public/
 
+echo "Fetch remote repo"
+git fetch -f
+
 echo "Checking out gh-pages branch into public"
 git worktree add -B gh-pages public origin/gh-pages
 
